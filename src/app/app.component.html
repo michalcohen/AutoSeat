@@ -1,15 +1,20 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<form (ngSubmit)="onSubmit()" class="front">
     <h1>
         מלא את הפרטים כדי לקבל שולחן!
     </h1>
     <div class="example-container">
         <mat-form-field>
-            <input matInput placeholder="שם פרטי">
+            <input [(ngModel)]="firstName" matInput placeholder="שם פרטי" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="שם משפחה">
+            <input [(ngModel)]="lastName" matInput placeholder="שם משפחה" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
     </div>
-    <button mat-button>שלח!</button>
+    <button type="submit" mat-button>שלח!</button>
+</form>
+<div class="front" *ngIf="wasSubmitted">
+    תודה {{previousFirstName}} !
+    שולחן מספר
+    {{tableNumber}}
 </div>

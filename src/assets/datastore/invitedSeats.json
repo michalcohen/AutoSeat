@@ -1,0 +1,19 @@
+{
+    "guests": [
+        {
+            "firstName": "דוד",
+            "lastName": "הכי טוב",
+            "tableNumber": 4
+        },
+        {
+            "firstName": "שמוליק",
+            "lastName": "נחמדי",
+            "tableNumber": 4
+        },
+        {
+            "firstName": "חיליק",
+            "lastName": "חילקיהו",
+            "tableNumber": 4
+        }
+    ]
+}
