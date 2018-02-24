@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule, MatButtonModule } from '@angular/material';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
+
+import { WelcomeModule } from './welcome/welcome.module';
+import { ManagerModule } from './manager/manager.module';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -14,12 +14,9 @@ import { AppComponent } from './app.component';
         AppComponent
     ],
     imports: [
-        BrowserModule,
-        HttpClientModule,
-        BrowserAnimationsModule,
-        MatInputModule,
-        MatButtonModule,
-        FormsModule,
+        AppRoutingModule,
+        WelcomeModule,
+        ManagerModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

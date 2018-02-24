@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<form (ngSubmit)="onSubmit()" class="front">
+    <h1>
+        מלא את הפרטים כדי לקבל שולחן!
+    </h1>
+    <div class="example-container">
+        <mat-form-field>
+            <datalist id="invities">
+                <option *ngFor="let person of invited.guests">{{person.name}}</option>
+            </datalist>
+            <input list="invities" [(ngModel)]="name" placeholder="שם" [ngModelOptions]="{standalone: true}" matInput>
+        </mat-form-field>
+    </div>
+    <button type="submit" mat-button>שלח!</button>
+</form>
+<div class="front" *ngIf="wasSubmitted">
+    תודה {{previousName}} ! שולחן מספר {{tableNumber}}
+</div>
