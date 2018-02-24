@@ -22,6 +22,16 @@ export class ManagerComponent implements OnInit {
     constructor(public SimpleSeatsManagerService: SeatsManagerService) { }
 
     ngOnInit() {
+        this.loadTable();
+    }
+
+    applyFilter(filterValue: string) {
+        filterValue = filterValue.trim(); // Remove whitespace
+        filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
+        this.dataSource.filter = filterValue;
+    }
+
+    public loadTable() {
         this.SimpleSeatsManagerService.getData().subscribe(data => {
             this.invitedState = data;
             this.displayedColumns = ['name', 'tableNumber', 'hasArrived'];
@@ -31,10 +41,13 @@ export class ManagerComponent implements OnInit {
         });
     }
 
-    applyFilter(filterValue: string) {
-        filterValue = filterValue.trim(); // Remove whitespace
-        filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
-        this.dataSource.filter = filterValue;
+    public updateTable() {
+        this.SimpleSeatsManagerService.getData().subscribe(data => {
+            this.invitedState = data;
+            (<any>document.getElementById('table')).renderRows();
+        }, data => {
+            console.log(data);
+        });
     }
 }
 

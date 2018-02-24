@@ -57,7 +57,7 @@ export class WelcomeComponent implements OnInit {
         this.http.post<string>(url, {
             invitee: tmpName
         }).subscribe(res => {
-            console.log("success");
+            console.log(res);
         }, res => {
             alert("could not notify " + name + " arrived :( ");
         })
