@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material';
 
 import { ManagerComponent } from './manager.component';
 
@@ -9,6 +12,9 @@ import { ManagerComponent } from './manager.component';
   ],
   imports: [
     CommonModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
 })
 export class ManagerModule { }

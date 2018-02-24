@@ -1,3 +1,31 @@
-<div>
-    hii
-</div>
+<div class="example-container mat-elevation-z8">
+    <div class="example-header">
+      <mat-form-field>
+        <input matInput (keyup)="applyFilter($event.target.value)" placeholder="סנן">
+      </mat-form-field>
+    </div>
+  
+    <mat-table #table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef> שם </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="tableNumber">
+        <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.tableNumber}} </mat-cell>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="hasArrived">
+        <mat-header-cell *matHeaderCellDef> האם הגיע? </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.hasArrived}} </mat-cell>
+      </ng-container>
+  
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>

@@ -28,8 +28,8 @@ export class WelcomeComponent implements OnInit {
         this.wasSubmitted = false;
         this.previousName = null;
         this.SimpleSeatsManagerService.init();
-        this.SimpleSeatsManagerService.getData().subscribe(x => {
-            this.invited = x
+        this.SimpleSeatsManagerService.getData().subscribe(data => {
+            this.invited = data;
         });
     }
 

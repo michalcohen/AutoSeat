@@ -39,6 +39,6 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
     }
 
     public getData(): Observable<ISeats> {
-        return this.http.get<ISeats>('./assets/datastore/invitedSeats.json');
+        return this.http.get<ISeats>('../assets/datastore/invitedSeats.json');
     }
 }
