@@ -2,17 +2,19 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ISeat } from './ISeat';
 import { ISeats } from './ISeats';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export abstract class SeatsManagerService {
-    getSeat: (firstName: string, lastName: string) => number
+    getSeat: (name: string) => number
     init: () => void
+    getData: () => Observable<ISeats>
 }
 
 @Injectable()
 export class SimpleSeatsManagerService implements SeatsManagerService {
 
-    private allSeats: ISeats;
+    public allSeats: ISeats;
 
     constructor(private http: HttpClient) { 
         this.allSeats = { guests: [] };
@@ -24,17 +26,19 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
         });
     }
 
-    public getSeat(firstName: string, lastName: string): number {
+    public getSeat(name: string): number {
         let seat: ISeat = this.allSeats.guests.find((seat: ISeat) => {
-            return seat.firstName === firstName && seat.lastName === lastName;
+            return seat.name === name;
         });
         if (!seat) {
-            console.error(`no such guest named: ${firstName} ${lastName}`);
+            window.alert(`no such guest named: ${name} `);
+            console.error(`no such guest named: ${name} `);
+            return -1;
         }
         return seat.tableNumber;
     }
 
-    private getData() {
+    public getData(): Observable<ISeats> {
         return this.http.get<ISeats>('./assets/datastore/invitedSeats.json');
     }
 }

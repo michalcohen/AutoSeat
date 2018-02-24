@@ -5,16 +5,16 @@
     </h1>
     <div class="example-container">
         <mat-form-field>
-            <input [(ngModel)]="firstName" matInput placeholder="שם פרטי" [ngModelOptions]="{standalone: true}">
-        </mat-form-field>
-        <mat-form-field>
-            <input [(ngModel)]="lastName" matInput placeholder="שם משפחה" [ngModelOptions]="{standalone: true}">
+                <datalist id="invities">
+                    <option *ngFor="let person of invited.guests">{{person.name}}</option>
+                </datalist>
+            <input list="invities"  [(ngModel)]="name" placeholder="שם" [ngModelOptions]="{standalone: true}" matInput>
         </mat-form-field>
     </div>
     <button type="submit" mat-button>שלח!</button>
 </form>
 <div class="front" *ngIf="wasSubmitted">
-    תודה {{previousFirstName}} !
+    תודה {{previousName}} !
     שולחן מספר
     {{tableNumber}}
 </div>

@@ -1,5 +1,5 @@
 export interface ISeat {
-    firstName: string
-    lastName: string
+    name: string
     tableNumber: number
+    hasArrived: boolean
 }
