@@ -5,23 +5,30 @@
       </mat-form-field>
     </div>
   
-    <button (click)="updateTable()" mat-button>טעני עדכונים</button>
-
+    <button (click)="updateTable()"  _ngcontent-c22="" mat-raised-button="" class="mat-raised-button">טעני עדכונים</button>
+    <div class="front">
+        מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
+    </div>
     <mat-table #table [dataSource]="dataSource">
-  
-      <!-- Position Column -->
+      <!-- name Column -->
       <ng-container matColumnDef="name">
         <mat-header-cell *matHeaderCellDef> שם </mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
       </ng-container>
   
-      <!-- Name Column -->
+      <!-- table number Column -->
       <ng-container matColumnDef="tableNumber">
         <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.tableNumber}} </mat-cell>
       </ng-container>
+
+      <!-- amount Column -->
+      <ng-container matColumnDef="amount">
+        <mat-header-cell *matHeaderCellDef> כמות </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.amount}} </mat-cell>
+      </ng-container>
   
-      <!-- Weight Column -->
+      <!-- has arrived Column -->
       <ng-container matColumnDef="hasArrived">
         <mat-header-cell *matHeaderCellDef> האם הגיע? </mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.hasArrived}} </mat-cell>
