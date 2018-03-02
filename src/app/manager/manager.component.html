@@ -19,7 +19,7 @@
       <!-- table number Column -->
       <ng-container matColumnDef="tableNumber">
         <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
-        <mat-cell *matCellDef="let element"> {{element.tableNumber}} </mat-cell>
+        <mat-cell *matCellDef="let element" (click)="openEditDialog('tableNumber', $event.target.value, element)"> {{element.tableNumber}} </mat-cell>
       </ng-container>
 
       <!-- amount Column -->
