@@ -5,7 +5,7 @@
     </h1>
     <div class="example-container">
         <mat-form-field>
-            <datalist id="invities">
+            <datalist *ngIf="invited" id="invities">
                 <option *ngFor="let person of invited.guests">{{person.name}}</option>
             </datalist>
             <input list="invities" [(ngModel)]="name" placeholder="שם" [ngModelOptions]="{standalone: true}" matInput>

@@ -2,10 +2,10 @@
 <div mat-dialog-content>
     <p>לאיזה שולחן להעביר את {{data.element.name}}?</p>
     <mat-form-field>
-        <input matInput [(ngModel)]="data.element.tableNumber">
+        <input matInput [(ngModel)]="data.element.tableNumber" cdkFocusInitial>
     </mat-form-field>
 </div>
 <div mat-dialog-actions>
     <button mat-button (click)="onNoClick()">ביטול</button>
-    <button mat-button [mat-dialog-close]="data.element.tableNumber" cdkFocusInitial>אישור</button>
+    <button mat-button [mat-dialog-close]="data.element.tableNumber">אישור</button>
 </div>

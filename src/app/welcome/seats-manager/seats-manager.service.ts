@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { ISeat } from './ISeat';
 import { ISeats } from './ISeats';
 import { Observable } from 'rxjs/Observable';
+import { environment } from '../../../environments/environment';
 
 @Injectable()
 export abstract class SeatsManagerService {
@@ -16,7 +17,7 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
 
     public allSeats: ISeats;
 
-    constructor(private http: HttpClient) { 
+    constructor(private http: HttpClient) {
         this.allSeats = { guests: [] };
     }
 
@@ -40,5 +41,18 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
 
     public getData(): Observable<ISeats> {
         return this.http.get<ISeats>('../assets/datastore/invitedSeats.json');
+    }
+
+    public setTable(name: string, tableNumber: number) {
+        let invitedName: string = name;
+        let tableNum: number = tableNumber;
+        this.http.post<string>(environment.apiUrl + "server-edit-table.php", {
+            tableNumber: tableNum,
+            name: invitedName
+        }).subscribe(res => {
+            console.log(res);
+        }, res => {
+            alert("could not update the table number");
+        })
     }
 }

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { SeatsManagerService, SimpleSeatsManagerService } from './seats-manager/seats-manager.service';
 import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 import { ISeats } from './seats-manager/ISeats';
+import { environment } from '../../environments/environment';
 
 @Component({
     selector: 'welcome-component',
@@ -52,9 +53,9 @@ export class WelcomeComponent implements OnInit {
     }
 
     private updateJson(name: string): void {
-        let url = `http://michalandassaf.000webhostapp.com/server.php`;
+        //let url = `http://michalandassaf.000webhostapp.com/server.php`;
         let tmpName = name;
-        this.http.post<string>(url, {
+        this.http.post<string>(environment.apiUrl + "/server.php", {
             invitee: tmpName
         }).subscribe(res => {
             console.log(res);
