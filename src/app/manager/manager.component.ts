@@ -43,7 +43,7 @@ export class ManagerComponent implements OnInit {
     }
 
     public goTableView() {
-        this.router.navigate(['manager/tables-view'])
+        this.router.navigate(['manager/tables-view']);
     }
 
     public loadTable() {
@@ -57,15 +57,6 @@ export class ManagerComponent implements OnInit {
                     this.amountArrived += element.amount;
                 }
             });
-        }, data => {
-            console.log(data);
-        });
-    }
-
-    public updateTable() {
-        this.SimpleSeatsManagerService.getData().subscribe(data => {
-            this.invitedState = data;
-            (<any>document.getElementById('table')).renderRows();
         }, data => {
             console.log(data);
         });

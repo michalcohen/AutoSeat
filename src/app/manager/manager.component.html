@@ -1,14 +1,14 @@
 <div class="example-container mat-elevation-z8">
-    <div class="example-header">
-      <mat-form-field>
-        <input matInput (keyup)="applyFilter($event.target.value)" placeholder="סנן">
-      </mat-form-field>
-    </div>
     <div class="front">
         <p>
             מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
         </p>
         <button mat-button (click)="goTableView()">צפי בשולחנות</button>
+    </div>
+    <div class="example-header">
+      <mat-form-field>
+        <input matInput (keyup)="applyFilter($event.target.value)" placeholder="סנני">
+      </mat-form-field>
     </div>
     <mat-table #table [dataSource]="dataSource">
       <!-- name Column -->
