@@ -7,12 +7,14 @@ import { MatInputModule, MatDialogModule, MatButtonModule } from '@angular/mater
 
 import { ManagerComponent } from './manager.component';
 import { TableEditDialog } from './table-edit-dialog/table-edit-dialog.component';
-import { BooleanTranslatorPipeModule } from '../utilities/boolean-translator/boolean-translator.module'
+import { BooleanTranslatorPipeModule } from '../utilities/boolean-translator/boolean-translator.module';
+import { TablesViewComponent } from './tables-view/tables-view.component'
 
 @NgModule({
     declarations: [
         ManagerComponent,
-        TableEditDialog
+        TableEditDialog,
+        TablesViewComponent
     ],
     entryComponents: [
         TableEditDialog

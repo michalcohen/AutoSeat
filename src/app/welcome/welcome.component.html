@@ -11,10 +11,10 @@
             <input list="invities" [(ngModel)]="name" placeholder="שם" [ngModelOptions]="{standalone: true}" matInput>
         </mat-form-field>
     </div>
-    <button mat-button type="submit" class="md-raised" mat-button>שלח!</button>
+    <button mat-button type="submit" class="md-raised" mat-button>אשר הגעה!</button>
 </form>
 <div class="front" *ngIf="wasSubmitted">
-    תודה {{previousName}} ! שולחן מספר {{tableNumber}}
+    תודה {{previousName}}! שולחן מספר {{tableNumber}}
 </div>
 <div class="centered">
     <img src="./assets/images/penguins.jpg" alt="penguins" width="20%" height="20%">

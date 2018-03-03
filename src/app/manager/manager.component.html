@@ -8,7 +8,7 @@
         <p>
             מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
         </p>
-        <button mat-button>צפי בשולחנות</button>
+        <button mat-button (click)="goTableView()">צפי בשולחנות</button>
     </div>
     <mat-table #table [dataSource]="dataSource">
       <!-- name Column -->

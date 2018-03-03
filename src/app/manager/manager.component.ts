@@ -7,6 +7,7 @@ import { ISeats } from '../welcome/seats-manager/ISeats';
 import { ISeat } from '../welcome/seats-manager/ISeat';
 import { TableEditDialog } from './table-edit-dialog/table-edit-dialog.component';
 import { element } from 'protractor';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'manager',
@@ -23,7 +24,8 @@ export class ManagerComponent implements OnInit {
     public amountArrived: number = 0;
 
     constructor(public SimpleSeatsManagerService: SeatsManagerService,
-        public dialog: MatDialog) { }
+        public dialog: MatDialog,
+        private router: Router) { }
 
     ngOnInit() {
         this.loadTable();
@@ -38,6 +40,10 @@ export class ManagerComponent implements OnInit {
     editField(field: string, editValue: string, el: any) {
         let idx = this.dataSource.data.findIndex(ele => el.name == ele.name);
         this.dataSource.data[idx][field] = editValue;
+    }
+
+    public goTableView() {
+        this.router.navigate(['manager/tables-view'])
     }
 
     public loadTable() {
