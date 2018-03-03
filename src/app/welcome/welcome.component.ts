@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { SeatsManagerService, SimpleSeatsManagerService } from './seats-manager/seats-manager.service';
 import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 import { ISeats } from './seats-manager/ISeats';
+import { ISeat } from './seats-manager/ISeat';
 import { environment } from '../../environments/environment';
 
 @Component({
@@ -21,6 +22,8 @@ export class WelcomeComponent implements OnInit {
     public wasSubmitted: boolean;
     public previousName;
     public invited: ISeats;
+    public tables: Array<Array<ISeat>>;
+    public image = 'background.jpg';
 
     constructor(public SimpleSeatsManagerService: SeatsManagerService,
         private http: HttpClient) { }
@@ -32,6 +35,12 @@ export class WelcomeComponent implements OnInit {
         this.SimpleSeatsManagerService.getData().subscribe(data => {
             this.invited = data;
         });
+        this.invited.guests = this.invited.guests.filter((guest) => guest.name != this.name);
+        this.invited.guests.forEach((guest) => {
+            if (guest.hasArrived){
+                this.tables[guest.tableNumber].push(guest);
+            }
+        });
     }
 
     public onSubmit(): void {
@@ -39,6 +48,7 @@ export class WelcomeComponent implements OnInit {
         this.tableNumber = this.SimpleSeatsManagerService.getSeat(this.name);
         if (this.tableNumber >= 0) {
             this.showSuccess();
+            this.invited.guests = this.invited.guests.filter((guest) => guest.name != this.name);
             this.updateJson(this.name);
         }
         else {

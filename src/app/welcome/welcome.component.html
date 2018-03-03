@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<form (ngSubmit)="onSubmit()" class="front">
+<form (ngSubmit)="onSubmit()" autocomplete="off">
     <h1>
         מלא את הפרטים כדי לקבל שולחן!
     </h1>
@@ -11,8 +11,11 @@
             <input list="invities" [(ngModel)]="name" placeholder="שם" [ngModelOptions]="{standalone: true}" matInput>
         </mat-form-field>
     </div>
-    <button type="submit" mat-button>שלח!</button>
+    <button mat-button type="submit" class="md-raised" mat-button>שלח!</button>
 </form>
 <div class="front" *ngIf="wasSubmitted">
     תודה {{previousName}} ! שולחן מספר {{tableNumber}}
+</div>
+<div class="centered">
+    <img src="./assets/penguins.jpg" alt="penguins" width="20%" height="20%">
 </div>
