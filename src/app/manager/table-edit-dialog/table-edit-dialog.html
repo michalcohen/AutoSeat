@@ -2,7 +2,7 @@
 <div mat-dialog-content *ngIf="data.field === 'tableNumber'">
     <p>לאיזה שולחן להעביר את {{data.element.name}}?</p>
     <mat-form-field>
-        <input matInput [(ngModel)]="data.element.tableNumber" cdkFocusInitial>
+        <input matInput type="number" [(ngModel)]="data.element.tableNumber" cdkFocusInitial>
     </mat-form-field>
 </div>
 <h1 mat-dialog-title *ngIf="data.field === 'hasArrived'">עדכון הגעה</h1>
