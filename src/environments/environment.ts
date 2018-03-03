@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'localhost:4200/'
+  apiUrl: 'http://michalandassaf.000webhostapp.com/'
 };

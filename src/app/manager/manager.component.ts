@@ -78,7 +78,8 @@ export class ManagerComponent implements OnInit {
           }
           let idx = this.dataSource.data.findIndex(ele => el.name == ele.name);
           this.dataSource.data[idx][field] = result;
-          //TODO update server
+          
+          this.SimpleSeatsManagerService.setTable(el.name, el.tableNumber);
         });
       }
 }

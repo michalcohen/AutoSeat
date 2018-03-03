@@ -10,6 +10,7 @@ export abstract class SeatsManagerService {
     getSeat: (name: string) => number
     init: () => void
     getData: () => Observable<ISeats>
+    setTable: (name: string, tableNumber: number) => void
 }
 
 @Injectable()
