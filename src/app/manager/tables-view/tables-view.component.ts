@@ -48,8 +48,11 @@ export class TablesViewComponent implements OnInit {
         filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
         this.dataSource.filter = filterValue;
         this.amountArrived = 0;
+        if (filterValue === "") {
+            return;
+        }
         this.dataSource.filteredData.forEach((row: ISeat) => {
-            this.amountArrived = row.hasArrived ? 1 : 0;
+            this.amountArrived += row.hasArrived ? 1 : 0;
         })
     }
 

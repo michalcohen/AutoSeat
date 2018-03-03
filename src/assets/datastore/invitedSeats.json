@@ -4,7 +4,7 @@
             "name": "מתן בקר",
             "tableNumber": 8,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": true
         },
         {
             "name": "איזנה ניגל",
