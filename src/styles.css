@@ -6,7 +6,7 @@
     src: url("./assets/fonts/VarelaRound-Regular.ttf");
 }
 * {
-    font-family: VarelaRound-Regular;
+    font-family: "VarelaRound-Regular";
 }
 img {
     max-width: 100%

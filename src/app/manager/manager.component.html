@@ -4,9 +4,11 @@
         <input matInput (keyup)="applyFilter($event.target.value)" placeholder="סנן">
       </mat-form-field>
     </div>
-    
     <div class="front">
-        מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
+        <p>
+            מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
+        </p>
+        <button mat-button>צפי בשולחנות</button>
     </div>
     <mat-table #table [dataSource]="dataSource">
       <!-- name Column -->

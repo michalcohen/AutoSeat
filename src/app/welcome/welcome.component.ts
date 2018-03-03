@@ -22,7 +22,6 @@ export class WelcomeComponent implements OnInit {
     public wasSubmitted: boolean;
     public previousName;
     public invited: ISeats;
-    public tables: Array<Array<ISeat>>;
 
     constructor(public SimpleSeatsManagerService: SeatsManagerService,
         private http: HttpClient) { }
@@ -34,11 +33,6 @@ export class WelcomeComponent implements OnInit {
         this.SimpleSeatsManagerService.getData().subscribe(data => {
             this.invited = data;
             this.invited.guests = this.invited.guests.filter((guest) => guest.name != this.name);
-            this.invited.guests.forEach((guest) => {
-                if (guest.hasArrived) {
-                    this.tables[guest.tableNumber].push(guest);
-                }
-            });
         });
     }
 
