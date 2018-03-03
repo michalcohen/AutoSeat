@@ -11,6 +11,7 @@ export abstract class SeatsManagerService {
     init: () => void
     getData: () => Observable<ISeats>
     setTable: (name: string, tableNumber: number) => void
+    setHasArrived: (name: string, hasArrived: boolean) => void
 }
 
 @Injectable()
@@ -54,6 +55,19 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
             console.log(res);
         }, res => {
             alert("could not update the table number");
+        })
+    }
+
+    public setHasArrived(name: string, hasArrived: boolean) {
+        let invitedName: string = name;
+        let arrived: boolean = hasArrived;
+        this.http.post<string>(environment.apiUrl + "server-edit-has-arrived.php", {
+            hasArrived: arrived,
+            name: invitedName
+        }).subscribe(res => {
+            console.log(res);
+        }, res => {
+            alert(`could not notify ${name} has arrived \ not arrived`);
         })
     }
 }

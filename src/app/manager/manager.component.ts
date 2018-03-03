@@ -67,20 +67,27 @@ export class ManagerComponent implements OnInit {
 
     openEditDialog(field: string, editValue: string, el: any): void {
         let dialogRef = this.dialog.open(TableEditDialog, {
-          width: '250px',
-          data: { field: field, editValue: editValue, element: el }
+            width: '250px',
+            data: { field: field, editValue: editValue, element: el },
+            disableClose: true
         });
-    
+
         dialogRef.afterClosed().subscribe(result => {
-          console.log('The dialog was closed');
-          if (result === undefined || result === null) {
-              return;
-          }
-          let idx = this.dataSource.data.findIndex(ele => el.name == ele.name);
-          this.dataSource.data[idx][field] = result;
-          
-          this.SimpleSeatsManagerService.setTable(el.name, el.tableNumber);
+            console.log('The dialog was closed');
+            if (result === undefined || result === null) {
+                return;
+            }
+            let idx = this.dataSource.data.findIndex(ele => el.name == ele.name);
+
+            if (field === 'tableNumber') {
+                this.dataSource.data[idx][field] = result.tableNumber;
+                this.SimpleSeatsManagerService.setTable(el.name, el.tableNumber);
+            } else if (field === 'hasArrived') {
+                this.amountArrived += result.hasArrived ? -result.amount : result.amount;
+                this.dataSource.data[idx][field] = !result.hasArrived
+                this.SimpleSeatsManagerService.setHasArrived(el.name, el.hasArrived);
+            }
         });
-      }
+    }
 }
 
