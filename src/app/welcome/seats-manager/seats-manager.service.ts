@@ -7,6 +7,8 @@ import { environment } from '../../../environments/environment';
 
 @Injectable()
 export abstract class SeatsManagerService {
+    allSeats: ISeats;
+
     getSeat: (name: string) => number
     init: () => void
     getData: () => Observable<ISeats>
@@ -59,6 +61,11 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
     }
 
     public setHasArrived(name: string, hasArrived: boolean) {
+        this.serverSetHasArrived(name, hasArrived);
+        this.clientSetHasArrived(name, hasArrived);
+    }
+
+    private serverSetHasArrived(name: string, hasArrived: boolean) {
         let invitedName: string = name;
         let arrived: boolean = hasArrived;
         this.http.post<string>(environment.apiUrl + "server-edit-has-arrived.php", {
@@ -69,5 +76,11 @@ export class SimpleSeatsManagerService implements SeatsManagerService {
         }, res => {
             alert(`could not notify ${name} has arrived \ not arrived`);
         })
+    }
+
+    private clientSetHasArrived(name: string, hasArrived: boolean) {
+        let guestIndex: number = this.allSeats.guests.findIndex((guest: ISeat) => guest.name === name);
+        let x = this.allSeats.guests[guestIndex].hasArrived;
+        x = !x;      
     }
 }

@@ -33,14 +33,24 @@ export class TablesViewComponent implements OnInit {
     }
 
     public loadTable() {
+        if (this.SimpleSeatsManagerService.allSeats && this.SimpleSeatsManagerService.allSeats.guests.length !== 0) {
+            this.initTable(this.SimpleSeatsManagerService.allSeats);
+            return;
+        }
+
         this.SimpleSeatsManagerService.getData().subscribe(data => {
-            this.invitedState = data;
-            this.displayedColumns = ['tableNumber', 'name', 'amount', 'hasArrived'];
-            this.dataSource = new MatTableDataSource<ISeat>(this.invitedState.guests);
-            this.dataSource.filterPredicate = this.tableFilter;
+            this.initTable(data);
         }, data => {
             console.log(data);
         });
+
+    }
+
+    private initTable(data: ISeats) {
+        this.invitedState = data;
+        this.displayedColumns = ['tableNumber', 'name', 'amount', 'hasArrived'];
+        this.dataSource = new MatTableDataSource<ISeat>(this.invitedState.guests);
+        this.dataSource.filterPredicate = this.tableFilter;
     }
 
     applyFilter(filterValue: string) {
@@ -52,12 +62,12 @@ export class TablesViewComponent implements OnInit {
             return;
         }
         this.dataSource.filteredData.forEach((row: ISeat) => {
-            this.amountArrived += row.hasArrived ? 1 : 0;
+            this.amountArrived += row.hasArrived ? row.amount : 0;
         })
     }
 
     tableFilter(data: ISeat, filter: string): boolean {
-        return data.tableNumber === Number(filter);
+        return data.tableNumber == Number(filter);
     }
 
 }
