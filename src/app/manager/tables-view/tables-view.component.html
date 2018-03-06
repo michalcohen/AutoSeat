@@ -11,25 +11,21 @@
         </mat-form-field>
     </div>
     <mat-table #table [dataSource]="dataSource">
-        <!-- table number Column -->
         <ng-container matColumnDef="tableNumber">
             <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
             <mat-cell *matCellDef="let element" (click)="openEditDialog('tableNumber', $event.target.value, element)"> {{element.tableNumber}} </mat-cell>
         </ng-container>
 
-        <!-- name Column -->
         <ng-container matColumnDef="name">
             <mat-header-cell *matHeaderCellDef> שם </mat-header-cell>
             <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
         </ng-container>
 
-        <!-- amount Column -->
         <ng-container matColumnDef="amount">
             <mat-header-cell *matHeaderCellDef> כמות </mat-header-cell>
             <mat-cell *matCellDef="let element"> {{element.amount}} </mat-cell>
         </ng-container>
 
-        <!-- has arrived Column -->
         <ng-container matColumnDef="hasArrived">
             <mat-header-cell *matHeaderCellDef> האם הגיע? </mat-header-cell>
             <mat-cell *matCellDef="let element" (click)="openEditDialog('hasArrived', $event.target.value, element)"> {{element.hasArrived | booleanTranslator}} </mat-cell>
@@ -38,4 +34,5 @@
         <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
         <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
     </mat-table>
+
 </div>

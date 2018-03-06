@@ -3,4 +3,5 @@ export interface ISeat {
     tableNumber: number
     amount: number
     hasArrived: boolean
+    relation: string
 }

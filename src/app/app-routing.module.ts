@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { ManagerComponent } from './manager/manager.component';
 import { WelcomeComponent } from './welcome/welcome.component'
 import { TablesViewComponent } from './manager/tables-view/tables-view.component';
+import { ForDariaComponent } from './manager/for-daria/for-daria.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'manager/tables-view',
     component: TablesViewComponent
+  },
+  {
+    path: 'manager/forDaria',
+    component: ForDariaComponent
   }
 ];
 

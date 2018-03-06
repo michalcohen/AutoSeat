@@ -46,10 +46,15 @@ export class ManagerComponent implements OnInit {
         this.router.navigate(['manager/tables-view']);
     }
 
+    
+    public goTotalTableView() {
+        this.router.navigate(['manager/forDaria']);
+    }    
+
     public loadTable() {
         this.SimpleSeatsManagerService.getData().subscribe(data => {
             this.invitedState = data;
-            this.displayedColumns = ['name', 'tableNumber', 'amount', 'hasArrived'];
+            this.displayedColumns = ['name', 'tableNumber', 'amount', 'hasArrived', 'relation'];
             this.dataSource = new MatTableDataSource(this.invitedState.guests);
             this.amountArrived = 0;
             this.invitedState.guests.forEach(element => {

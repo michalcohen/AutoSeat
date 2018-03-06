@@ -4,6 +4,9 @@ import { SeatsManagerService, SimpleSeatsManagerService } from '../../welcome/se
 import { ISeats } from '../../welcome/seats-manager/ISeats';
 import { MatTableDataSource } from '@angular/material';
 import { ISeat } from '../../welcome/seats-manager/ISeat';
+import { ITable } from '../ITable';
+import { SimpleTablesManagerService, TablesManagerService } from '../tables-manager.service';
+import { ITables } from '../ITables';
 
 @Component({
     selector: 'app-tables-view',
@@ -15,12 +18,16 @@ import { ISeat } from '../../welcome/seats-manager/ISeat';
 })
 export class TablesViewComponent implements OnInit {
 
+    tablesState: ITables; //
     amountArrived: number;
     dataSource: MatTableDataSource<ISeat>;
+    tablesDataSource: MatTableDataSource<ITable>;//
     displayedColumns: string[];
+    tablesDisplayedColumns: string[];
     invitedState: ISeats;
     constructor(private router: Router,
-        public SimpleSeatsManagerService: SeatsManagerService, ) {
+        public SimpleSeatsManagerService: SeatsManagerService
+    ) {
         this.amountArrived = 0;
     }
 
@@ -46,12 +53,15 @@ export class TablesViewComponent implements OnInit {
 
     }
 
+
     private initTable(data: ISeats) {
         this.invitedState = data;
         this.displayedColumns = ['tableNumber', 'name', 'amount', 'hasArrived'];
         this.dataSource = new MatTableDataSource<ISeat>(this.invitedState.guests);
         this.dataSource.filterPredicate = this.tableFilter;
     }
+
+
 
     applyFilter(filterValue: string) {
         filterValue = filterValue.trim(); // Remove whitespace

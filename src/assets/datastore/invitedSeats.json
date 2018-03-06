@@ -1,1594 +1,1551 @@
 {
     "guests": [
         {
-            "name": "מתן בקר",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": true
-        },
-        {
-            "name": "איזנה ניגל",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דן לירז",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שירן בוזגלו",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שי מרום",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יבגני",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גיל סולומון",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מירית בן שמואל",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מאיה זלצין",
-            "tableNumber": 24,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שגיא סביליה",
-            "tableNumber": 24,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "נטע כספין",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גבי קוונצל",
-            "tableNumber": 8,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יאיר כהן",
-            "tableNumber": 24,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מיקו איב",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דביר ולימור הריס",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מעיין סוויסה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "גלית פרברי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "טל וייסברוד",
-            "tableNumber": 24,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מורן לוי",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מרק גנדלמן",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "איתי צביאלי",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ויקי בלוך",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "צוף פלד",
-            "tableNumber": 12,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אסף חסין",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עידן אביגדורי",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "חרות והב",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אלכס ארטריאן",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אלה פוגורלצב",
-            "tableNumber": 4,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
             "name": "Andrei",
             "tableNumber": 4,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "מעבדה"
         },
         {
             "name": "Carl",
             "tableNumber": 4,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "מעבדה"
         },
         {
             "name": "Yosef",
             "tableNumber": 4,
             "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מיכל וילק",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "נתלי גלי",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גיל ברנע",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עמיצור מנחם",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דן לוי",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "בועז חפיף",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ניצן מוסקוביץ'",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אמיר גולן",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רפאל כהן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אבי סמסון",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יונתן אהרוני",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דן בלנרו",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אמיר מילמן",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רועי קאופמן",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רותם קלמן",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ליאור קדוש",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עדן מורן",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אבי ישורון",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אלכס ברנסון",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דימה ואליסה בוקצ'ין",
-            "tableNumber": 3,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אמילי גרושר",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רון גל",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דיאנה איצקוביץ'",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "שלומי וירדנה לינדנר",
-            "tableNumber": 3,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "יהונתן אמיר",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "הילה קופמן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אליק ניימן",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מבשרת אביטל",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עקיבא סטולוביץ'",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "לב מארי",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ירון שלי",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "חזי עמיר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מישל שגיא",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "תומר היינריך",
-            "tableNumber": 7,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אילנה שלום אדלר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "ציפי שקד",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גדי טננבאום",
-            "tableNumber": 7,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רונן לרנר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יוני משעלי",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דני קוזבין",
-            "tableNumber": 7,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "הדס הכט",
-            "tableNumber": 3,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שוהם לוי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יואב דרור",
-            "tableNumber": 12,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ליאור כהן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "ים מסיקה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אמנון מעודה",
-            "tableNumber": 10,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מיכל מעודה",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "טל ודימה",
-            "tableNumber": 2,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "ליאת ועמית",
-            "tableNumber": 2,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אור מעודה",
-            "tableNumber": 24,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יואל  ואביבה מעודה",
-            "tableNumber": 10,
-            "amount": 5,
-            "hasArrived": false
-        },
-        {
-            "name": "שוקי ותיקי מעודה",
-            "tableNumber": 9,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "לוי מעודה",
-            "tableNumber": 9,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "פנינה נבו",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מרגלית ובן זוגה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דויד ואוקסאנה מעודה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "בני ורותי מעודה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יפה ומרדכי חוברה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אתי ואברהם רוזנצוויג",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "שושי כורש ",
-            "tableNumber": 22,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דותן ודיקלה מעודה",
-            "tableNumber": 9,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רונית טיירי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "הלל טיירי ורעיתו",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "שמאי טיירי ורעיתו",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אורי ורינה טיירי",
-            "tableNumber": 22,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "דינה ואורי חלילי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מרק ומורן קינן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "מוטי מסניק",
-            "tableNumber": 10,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מבית הספר",
-            "tableNumber": 5,
-            "amount": 12,
-            "hasArrived": false
-        },
-        {
-            "name": "אלי ומירה תנעמי",
-            "tableNumber": 10,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רוני נחום",
-            "tableNumber": 10,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יצחק וייצמן",
-            "tableNumber": 10,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דוד ומירי מסניק",
-            "tableNumber": 10,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "עמי חיון",
-            "tableNumber": 10,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גל ורונית רפאלי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "גיורא ושולה יגר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יובל שמיר",
-            "tableNumber": 2,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "חזי ושולה",
-            "tableNumber": 2,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "ישראל ופנינה שמיר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אורית ואודי אקסלרוד",
-            "tableNumber": 2,
-            "amount": 4,
-            "hasArrived": false
-        },
-        {
-            "name": "מזל וארנון קמינסקי",
-            "tableNumber": 11,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "איציק מנדלוביץ'",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גילי ואליס זמיר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "סי ירון",
-            "tableNumber": 11,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אילנה כועז",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "איריס היימן",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "נעמי",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עדינה ואלי לדר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יואל וינקלר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "לירן מעודה",
-            "tableNumber": 9,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מתן מעודה",
-            "tableNumber": 9,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אדיר מעודה",
-            "tableNumber": 9,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ציון ויונה מוגני",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אינה שוורצמן",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "חיה רימר",
-            "tableNumber": 6,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רונית גורדון",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רחל שוואלם",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "רינת תורג'מן",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דולי בן שימחון",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מרסל אמסלם",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יעל שוורץ",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "איריס סעדיה",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "זהבה",
-            "tableNumber": 6,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אסתר וינקלר",
-            "tableNumber": 2,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ששון",
-            "tableNumber": 21,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דורון כהן",
-            "tableNumber": 21,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רן",
-            "tableNumber": 21,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ארז וענת",
-            "tableNumber": 21,
-            "amount": 4,
-            "hasArrived": false
-        },
-        {
-            "name": "רחלה שיינפלד",
-            "tableNumber": 21,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שרה ואסתי סלומונוביץ'",
-            "tableNumber": 16,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "פזית ושלומי",
-            "tableNumber": 16,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "חני ורני אלנטוך",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "המבורגר הדסה ומיקה",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "מרים",
-            "tableNumber": 23,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "איציק ודורית",
-            "tableNumber": 20,
-            "amount": 3,
-            "hasArrived": false
-        },
-        {
-            "name": "נועה ויאן",
-            "tableNumber": 20,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "דינה וסלומון ששון",
-            "tableNumber": 20,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אילנית ובועז אברהם",
-            "tableNumber": 20,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אלי ודפנה ששון",
-            "tableNumber": 20,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רחלה ומוטי שטרית",
-            "tableNumber": 20,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "חיים ואורית",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "שושנה מואסיס",
-            "tableNumber": 19,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אילנה ודוד אדמוני",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "כפיר ולידור",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אידור ועדי",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אלומית ואלי",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "גלית ויוסי",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "דוד ומרגלית",
-            "tableNumber": 19,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "ברקו ומלכה רפאל",
-            "tableNumber": 9,
-            "amount": 4,
-            "hasArrived": false
-        },
-        {
-            "name": "הרי ורינה רפאל",
-            "tableNumber": 9,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "פניאל קרצ'מן",
-            "tableNumber": 21,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רון תם",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מעיין פדלון",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "זוהר",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "מעבדה"
         },
         {
             "name": "אבא אמא מאיה וענבל",
             "tableNumber": 15,
             "amount": 4,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה גרעינית מיכל"
         },
         {
-            "name": "סבתא לאה",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "סבתא אווה",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שרון ויוסי כהן",
+            "name": "אבי ומלכה פולמבו",
             "tableNumber": 23,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
         },
         {
-            "name": "שרה ואבינעם כהן",
+            "name": "אבי ישורון",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אבי סמסון",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אביב רבינוביץ",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "אבינעם ושרה כהן",
             "tableNumber": 23,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
         },
         {
-            "name": "ורד ושי כהן",
-            "tableNumber": 23,
+            "name": "אביעד כרמל",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "אביתר דגני",
+            "tableNumber": 24,
             "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "דליה ומוטי אינבינדר",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "מיכל ויחזקאל וולקוביץ'",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "ורד ומאיר בנדק",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "עודד ונירה שכטר",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "רונית בנד",
-            "tableNumber": 23,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ציפי שכטר",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אילן שכטר",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אורית ועופר רייז",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "יוסי קסטל",
-            "tableNumber": 23,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יעקב קסטל",
-            "tableNumber": 23,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מלכה ואבי פולמבו",
-            "tableNumber": 23,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "מזל וברוך טשליצקי",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "מזל וקרול נאג'י",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "יוספה ויוסי דגן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "פנינה ודרור כהן",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "יוני וסימה כהן",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "וומיק ונחמה פוטקמינר",
-            "tableNumber": 14,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "שרית וערן רפאלוב",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "יפית ועוז דביר",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "טיטי וירדן פוטקמינר",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מלכה גלבוע",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אנייה",
-            "tableNumber": 15,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שרה לייבל",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "לאורה",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "דולי וצביקה קליין",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "טלי",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "ליאור",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שמוליק וסיוון קליין",
-            "tableNumber": 14,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "הגר וגיא",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "חן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דנה ועוז",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "מאיה ורוני",
-            "tableNumber": 14,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "פאולינה",
-            "tableNumber": 11,
-            "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "חברים משותפים"
         },
         {
             "name": "אברהם לייבל",
             "tableNumber": 18,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "סבתא אווה"
         },
         {
-            "name": "יעקב ולסלי לייבל",
-            "tableNumber": 18,
+            "name": "אדיר מעודה",
+            "tableNumber": 9,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של אמנון"
+        },
+        {
+            "name": "אווה טלמן",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית מיכל"
+        },
+        {
+            "name": "אור מעודה",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית של אסף"
+        },
+        {
+            "name": "אוראל מורגן",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "אורי ורינה טיירי",
+            "tableNumber": 22,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
-            "name": "חיים ומירה לייבל",
-            "tableNumber": 18,
+            "name": "אורי רוט",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "אורית ואודי אקסלרוד",
+            "tableNumber": 2,
+            "amount": 4,
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "אידור ועדי גנדלמן",
+            "tableNumber": 19,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "הצד של שושי"
         },
         {
-            "name": "שלי וגנר",
+            "name": "אייל קושילביץ",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "אילן שכטר",
+            "tableNumber": 0,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "אילנה ודוד אדמוני",
+            "tableNumber": 19,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "אילנה כועז",
             "tableNumber": 11,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
         },
         {
-            "name": "יפה זיגלבוים",
+            "name": "אילנית ובועז אברהם",
+            "tableNumber": 20,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "אינה שוורצמן",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "איציק ודורית גנדלמן",
+            "tableNumber": 20,
+            "amount": 3,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "איציק מנדלוביץ'",
             "tableNumber": 11,
-            "amount": 2,
-            "hasArrived": false
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
         },
         {
-            "name": "מריאן ולוצ'י זלמן",
-            "tableNumber": 18,
+            "name": "אירה ותומר",
+            "tableNumber": 8,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "חברים משותפים"
         },
         {
-            "name": "סורין כרמלה זלמן",
-            "tableNumber": 18,
-            "amount": 2,
-            "hasArrived": false
+            "name": "איריס היימן",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
         },
         {
-            "name": "פינה רפאל",
+            "name": "איריס סעדיה",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "איתי פיירוורקר",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "איתי צביאלי",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "אלה פוגורלצב",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "אלומית ואלי",
+            "tableNumber": 19,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "אלון שטיירמן",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "אלי ודפנה ששון",
+            "tableNumber": 20,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "אלי ומירה תנעמי",
+            "tableNumber": 10,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "אליק ניימן",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אלכס ארטריאן",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "אמילי גרושר",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אמיר גולן",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אמיר מילמן",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "אמנון מעודה",
+            "tableNumber": 10,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית של אסף"
+        },
+        {
+            "name": "אנאל וגלאור",
+            "tableNumber": 24,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים משותפים"
+        },
+        {
+            "name": "אנה בלוזובסקי",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר ראשון"
+        },
+        {
+            "name": "אנה קלבר",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מכל עבר"
+        },
+        {
+            "name": "אנייה",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "אסף חסין",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "אסתר וינקלר",
+            "tableNumber": 2,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "אפרת אריכא",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מכל עבר"
+        },
+        {
+            "name": "ארז וענת כהן",
+            "tableNumber": 21,
+            "amount": 4,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "אריאל קוליקנט",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "אתי ואברהם רוזנצוויג",
             "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
-            "name": "זליג ולידיה שטרייכמן",
-            "tableNumber": 18,
+            "name": "בועז חפיף",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "בני ורותי מעודה",
+            "tableNumber": 0,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "ברקו ומלכה רפאל",
+            "tableNumber": 9,
+            "amount": 4,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
         },
         {
             "name": "בת שבע שטרייכמן",
             "tableNumber": 18,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "ג'ני ארביב",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "גבי קוונצל",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "גדי טננבאום",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "גיל ברנע",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "גיל סולומון",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "גילי ואליס זמיר",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "גל אלון",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "גל ורונית רפאלי",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "גלית ויוסי",
+            "tableNumber": 19,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "גניה שנדלוב",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר ראשון"
+        },
+        {
+            "name": "דוד ומירי מסניק",
+            "tableNumber": 10,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "דוד ומרגלית מואסיס",
+            "tableNumber": 19,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "דויד ואוקסאנה מעודה",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "דולי בן שימחון",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "דולי וצביקה קליין",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "דורון כהן",
+            "tableNumber": 21,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "החברים של דורון"
+        },
+        {
+            "name": "דותן ודיקלה מעודה",
+            "tableNumber": 9,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "דימה ואליסה בוקצ'ין",
+            "tableNumber": 3,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "דינה ואורי חלילי",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "דינה וסלומון ששון",
+            "tableNumber": 20,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "דליה ומוטי אינבינדר",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "דן בלנרו",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "דן לוי",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "דן לירז",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "דנה ועוז",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "דני קוזבין",
+            "tableNumber": 7,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "הדס הכט",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "המבורגר הדסה ומיקה",
+            "tableNumber": 16,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "הרי ורינה רפאל",
+            "tableNumber": 9,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "וומיק ונחמה פוטקמינר",
+            "tableNumber": 14,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של סבתא"
+        },
+        {
+            "name": "ויקי בלוך",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "ורד ומאיר בנדק",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "זהבה",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "זוהר בן אשר",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים של אחים"
+        },
+        {
+            "name": "זיו ספיר",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "זליג ולידיה שטרייכמן",
+            "tableNumber": 18,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "חזי ושולה שמיר",
+            "tableNumber": 2,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "חיה רימר",
+            "tableNumber": 6,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "חיים ואורית גנדלמן",
+            "tableNumber": 19,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "חיים ומירה לייבל",
+            "tableNumber": 18,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "חני ורמי אלנטוך",
+            "tableNumber": 16,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "חרות והב",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "טוני לחטמן",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "טיטי וירדן פוטקמינר",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "טל הלפנד",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר ראשון"
+        },
+        {
+            "name": "טל ודימה",
+            "tableNumber": 2,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית של אסף"
+        },
+        {
+            "name": "טל וייסברוד",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "טל ושגיא",
+            "tableNumber": 8,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים משותפים"
+        },
+        {
+            "name": "טלי קליין",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "טלי שטקלברג",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "יאיר כהן",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "יבגני שפירו",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "יהונתן אמיר",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "יואב דרור",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "יואל ואביבה מעודה",
+            "tableNumber": 10,
+            "amount": 5,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "יואל וינקלר",
+            "tableNumber": 0,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "יובל שמיר",
+            "tableNumber": 2,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "יוני וסימה כהן",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "יוני משעלי",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "יונתן אהרוני",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "יונתן זרצקי",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "יונתן עטר",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים משותפים"
+        },
+        {
+            "name": "יוסי ושרון כהן",
+            "tableNumber": 23,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "יוסי קסטל",
+            "tableNumber": 23,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "ימית רשף",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "יסמין ובן",
+            "tableNumber": 24,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים משותפים"
+        },
+        {
+            "name": "יעל שוורץ",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "יעקב ולסלי לייבל",
+            "tableNumber": 18,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "יעקב קסטל",
+            "tableNumber": 23,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "יפה ומרדכי חוברה",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "יפה זיגלבוים",
+            "tableNumber": 11,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "יפית ועוז דביר",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של סבתא"
+        },
+        {
+            "name": "יצחק וייצמן",
+            "tableNumber": 10,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "ירדן לב",
+            "tableNumber": 17,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "ירון שלי",
+            "tableNumber": 0,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "לאה כהן",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית מיכל"
+        },
+        {
+            "name": "לאורה",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "לוי מעודה",
+            "tableNumber": 9,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "ליאור קדוש",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "ליאור קליין",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "ליאת ועמית פריגוז'ין",
+            "tableNumber": 2,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית של אסף"
+        },
+        {
+            "name": "לירון רוזנבליט",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "לירן מעודה",
+            "tableNumber": 9,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של אמנון"
+        },
+        {
+            "name": "מאיה ורוני",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "מאיה זלצין",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "מבית הספר של אמנון",
+            "tableNumber": 5,
+            "amount": 12,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "מבשרת אביטל",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "מוטי מסניק",
+            "tableNumber": 10,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "מורן לוי",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "מושיקו",
+            "tableNumber": 24,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים משותפים"
+        },
+        {
+            "name": "מזל וארנון קמינסקי",
+            "tableNumber": 11,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "מזל וברוך טשליצקי",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "מזל וקרול נאג'י",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "מיכל ויחזקאל וולקוביץ'",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "מיכל וילק",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "מיכל מעודה",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה גרעינית של אסף"
+        },
+        {
+            "name": "מירית בן שמואל",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "מישל שגיא",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "מלכה גלבוע",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "מעיין פדלון",
+            "tableNumber": 15,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים של אחים"
+        },
+        {
+            "name": "מרגלית מעודה",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
+        },
+        {
+            "name": "מריאן ולוצ'י זלמן",
+            "tableNumber": 18,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "מרים כהן",
+            "tableNumber": 23,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "מרסל אמסלם",
+            "tableNumber": 6,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
+        },
+        {
+            "name": "מרק גנדלמן",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "מרק ומורן קינן",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "מתן בקר",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "מתן מעודה",
+            "tableNumber": 9,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של אמנון"
+        },
+        {
+            "name": "נועה ויאן",
+            "tableNumber": 20,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "הצד של שושי"
+        },
+        {
+            "name": "נטע כספין",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "ניצן מוסקוביץ'",
+            "tableNumber": 7,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "נעמי",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "נתלי גלי",
+            "tableNumber": 3,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
         },
         {
             "name": "סווטה",
             "tableNumber": 11,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "סבתא אווה"
         },
         {
-            "name": "אנאל וגלאור",
-            "tableNumber": 2,
+            "name": "סורין כרמלה זלמן",
+            "tableNumber": 18,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "סבתא אווה"
         },
         {
-            "name": "יסמין ובן",
+            "name": "סי ירון",
+            "tableNumber": 11,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "החברים של מיכל (אמא של אסף)"
+        },
+        {
+            "name": "עדינה ואלי לדר",
             "tableNumber": 0,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "המשפחה של מיכל (אמא של אסף)"
         },
         {
-            "name": "טל ושגיא",
-            "tableNumber": 2,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "יונתן עטר",
-            "tableNumber": 1,
+            "name": "עדן מורן",
+            "tableNumber": 7,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "עבודה"
         },
         {
-            "name": "מושיקו",
+            "name": "עודד ונירה שכטר",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "עופר גוטמן",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "עידן אביגדורי",
+            "tableNumber": 4,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "עמי חיון",
+            "tableNumber": 10,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
+        },
+        {
+            "name": "פאולינה",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "פזית ושלומי",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "פניאל קרצ'מן",
+            "tableNumber": 21,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים של אבא"
+        },
+        {
+            "name": "פנינה ודרור כהן",
+            "tableNumber": 0,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "פנינה נבו",
             "tableNumber": 0,
             "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אביתר דגני",
-            "tableNumber": 0,
-            "amount": 2,
-            "hasArrived": false
-        },
-        {
-            "name": "אירה ותומר",
-            "tableNumber": 2,
-            "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
             "name": "צביה איגר וגיא שמיליאן",
+            "tableNumber": 22,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "צוף פלד",
+            "tableNumber": 12,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "מעבדה"
+        },
+        {
+            "name": "ציון ויונה מוגני",
             "tableNumber": 0,
             "amount": 2,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "המשפחה של אמנון"
         },
         {
-            "name": "לירון רוזנבליט",
+            "name": "ציפי שכטר",
             "tableNumber": 0,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
         },
         {
-            "name": "אוראל מורגן",
-            "tableNumber": 0,
+            "name": "ציפי שקד",
+            "tableNumber": 12,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "עבודה"
         },
         {
-            "name": "זיו ספיר",
-            "tableNumber": 0,
+            "name": "רון תם",
+            "tableNumber": 15,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "חברים של אחים"
         },
         {
-            "name": "שנהב גלעדי",
-            "tableNumber": 0,
+            "name": "רוני נחום",
+            "tableNumber": 10,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "חברים של אמנון"
         },
         {
-            "name": "ימית רשף",
-            "tableNumber": 0,
+            "name": "רונית בנד",
+            "tableNumber": 23,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
         },
         {
-            "name": "אנה בלוזובסקי",
-            "tableNumber": 0,
+            "name": "רונית גורדון",
+            "tableNumber": 6,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
         },
         {
-            "name": "קורל צ'פניק",
+            "name": "רונית טיירי",
             "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "ירדן לב ושרון קונינין",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אורן אפק",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אמיר שגיב וענבל צוקרמן",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
             "name": "רועי מאור",
             "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "פסגות"
+        },
+        {
+            "name": "רועי קאופמן",
+            "tableNumber": 12,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "עבודה"
         },
         {
             "name": "רועי רז",
             "tableNumber": 0,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "פסגות"
         },
         {
-            "name": "גניה שנדלוב",
-            "tableNumber": 1,
+            "name": "רותם קלמן",
+            "tableNumber": 7,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "עבודה"
         },
         {
-            "name": "טל הלפנד",
-            "tableNumber": 1,
+            "name": "רחל שוואלם",
+            "tableNumber": 6,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
         },
         {
-            "name": "אביב רבינוביץ",
-            "tableNumber": 1,
+            "name": "רחלה ומוטי שטרית",
+            "tableNumber": 20,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "הצד של שושי"
         },
         {
-            "name": "יונתן זרצקי",
-            "tableNumber": 1,
+            "name": "רחלה שיינפלד",
+            "tableNumber": 21,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
         },
         {
-            "name": "אורי רוט",
-            "tableNumber": 1,
+            "name": "רינת תורג'מן",
+            "tableNumber": 6,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "בית ספר מיכל"
         },
         {
-            "name": "אלון שטיירמן",
-            "tableNumber": 1,
+            "name": "רן אורלביץ'",
+            "tableNumber": 21,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "החברים של דורון"
         },
         {
-            "name": "אייל קושילביץ",
-            "tableNumber": 0,
+            "name": "שגיא סביליה",
+            "tableNumber": 24,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "טכניון"
         },
         {
-            "name": "סרי חורי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
+            "name": "שוקי ותיקי מעודה",
+            "tableNumber": 9,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
-            "name": "תאמר מור",
-            "tableNumber": 1,
+            "name": "שושי כורש ",
+            "tableNumber": 22,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "משפחה של אמנון"
         },
         {
-            "name": "איתי פיירוורקר",
-            "tableNumber": 0,
+            "name": "שושנה מואסיס",
+            "tableNumber": 19,
             "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "עמית אוחיון",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "רוי שחורי + מיכל",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "דורון משולם",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "תומר דרגוצקי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אליה תראורה ורון גטניו",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "רודד זץ",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "זיו יזהר",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "אריאל קוליקנט",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אלון ממיסטלוב",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "שי זאבי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "עופר גוטמן",
-            "tableNumber": 1,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אביעד כרמל",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "גל אלון",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "שיר לוי",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "קטיה",
-            "tableNumber": 0,
-            "amount": 0,
-            "hasArrived": false
-        },
-        {
-            "name": "טלי שטקלברג",
-            "tableNumber": 1,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אפרת אריכא",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
-        },
-        {
-            "name": "אנה קלבר",
-            "tableNumber": 0,
-            "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "הצד של שושי"
         },
         {
             "name": "שחר יאיר",
-            "tableNumber": 0,
+            "tableNumber": 17,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "פסגות"
         },
         {
-            "name": "טוני לחטמן",
-            "tableNumber": 0,
+            "name": "שי וורד כהן",
+            "tableNumber": 23,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "משפחה של דורון"
+        },
+        {
+            "name": "שי מרום",
+            "tableNumber": 8,
             "amount": 1,
-            "hasArrived": false
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "שירן בוזגלו",
+            "tableNumber": 8,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "טכניון"
+        },
+        {
+            "name": "שלומי וירדנה לינדנר",
+            "tableNumber": 3,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "עבודה"
+        },
+        {
+            "name": "שלי וגנר",
+            "tableNumber": 11,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "שמוליק וסיוון קליין",
+            "tableNumber": 14,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "סבתא אווה"
+        },
+        {
+            "name": "שנהב גלעדי",
+            "tableNumber": 22,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "חברים מהתיכון"
+        },
+        {
+            "name": "שרה ואסתי סלומונוביץ'",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "המשפחה של דורון"
+        },
+        {
+            "name": "שרית וערן רפאלוב",
+            "tableNumber": 14,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "משפחה של סבתא"
+        },
+        {
+            "name": "ששון ורחל",
+            "tableNumber": 21,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "החברים של דורון"
+        },
+        {
+            "name": "תאמר מור",
+            "tableNumber": 16,
+            "amount": 1,
+            "hasArrived": false,
+            "relation": "תואר שני"
+        },
+        {
+            "name": "תומר היינריך",
+            "tableNumber": 7,
+            "amount": 2,
+            "hasArrived": false,
+            "relation": "עבודה"
         }
     ]
 }

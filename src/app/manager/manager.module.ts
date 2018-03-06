@@ -8,13 +8,15 @@ import { MatInputModule, MatDialogModule, MatButtonModule } from '@angular/mater
 import { ManagerComponent } from './manager.component';
 import { TableEditDialog } from './table-edit-dialog/table-edit-dialog.component';
 import { BooleanTranslatorPipeModule } from '../utilities/boolean-translator/boolean-translator.module';
-import { TablesViewComponent } from './tables-view/tables-view.component'
+import { TablesViewComponent } from './tables-view/tables-view.component';
+import { ForDariaComponent } from './for-daria/for-daria.component'
 
 @NgModule({
     declarations: [
         ManagerComponent,
         TableEditDialog,
-        TablesViewComponent
+        TablesViewComponent,
+        ForDariaComponent
     ],
     entryComponents: [
         TableEditDialog

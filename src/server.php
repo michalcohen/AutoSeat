@@ -18,8 +18,10 @@ function deliver_response($status, $status_message) {
     $request = json_decode($postdata);
     @$name = $request->invitee;
     $name = wordwrap($name,70);
-    $jsonFile = file_get_contents('./assets/datastore/invitedSeats.json'); 
+    $jsonFile = file_get_contents('./assets/datastore/invitedSeats.json');
+    $jsonTable = file_get_contents('./assets/datastore/tables.json');
     $file = json_decode($jsonFile, JSON_UNESCAPED_UNICODE);
+    $fileTable = json_decode($jsonTable, JSON_UNESCAPED_UNICODE);
 
     $tables = array();
     for ($i = 0; $i < $numberOfTables; $i++){
@@ -34,10 +36,11 @@ function deliver_response($status, $status_message) {
         $guest->amount = $entry['amount'];
         array_push($tables[$entry['tableNumber']], $guest);
     }
-    
+    $tableNumber = -1;
     foreach ((array)$file['guests'] as $key => $entry) {
         if ($entry['name'] == $name) {
             $file['guests'][$key]['hasArrived'] = true;
+            $tableNumber = $file['guests'][$key]['tableNumber'];
             $sum = 0;
             $maxVal = 0;
             for ($i = 0; $i < count($tables[$entry['tableNumber']]); $i++){
@@ -57,8 +60,19 @@ function deliver_response($status, $status_message) {
             }
         }
     }
+
+
+    foreach ((array)$fileTable['tables'] as $key => $entry) {
+        if ($entry['tableNumber'] == $tableNumber) {
+            $entry['arrived'] += 1;
+        }
+    }
+    
     $newJsonString = json_encode($file, JSON_UNESCAPED_UNICODE);
     file_put_contents('./assets/datastore/invitedSeats.json', $newJsonString);   
+
+    $newJsonStringTable = json_encode($fileTable, JSON_UNESCAPED_UNICODE);
+    file_put_contents('./assets/datastore/tables.json', $newJsonStringTable);   
 }
 
 class Guest{
