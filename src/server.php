@@ -36,7 +36,7 @@ function deliver_response($status, $status_message) {
         $guest->amount = $entry['amount'];
         array_push($tables[$entry['tableNumber']], $guest);
     }
-    $tableNumber = -1;
+    @$tableNumber = -1;
     foreach ((array)$file['guests'] as $key => $entry) {
         if ($entry['name'] == $name) {
             $file['guests'][$key]['hasArrived'] = true;
@@ -64,7 +64,7 @@ function deliver_response($status, $status_message) {
 
     foreach ((array)$fileTable['tables'] as $key => $entry) {
         if ($entry['tableNumber'] == $tableNumber) {
-            $entry['arrived'] += 1;
+            $fileTable['tables'][$key]['arrived'] += 1;
         }
     }
     
