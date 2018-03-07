@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { TablesManagerService, SimpleTablesManagerService } from '../tables-manager.service';
 import { ITables } from '../ITables';
-import { MatTableDataSource } from '@angular/material';
+import { MatTableDataSource, MatSort } from '@angular/material';
 import { ITable } from '../ITable';
 import { Router } from '@angular/router';
 import { SeatsManagerService, SimpleSeatsManagerService } from '../../welcome/seats-manager/seats-manager.service';
@@ -23,6 +23,7 @@ export class ForDariaComponent implements OnInit {
     tablesDataSource: MatTableDataSource<ITable>;
     displayedColumns: string[];
     tablesDisplayedColumns: string[];
+    @ViewChild(MatSort) sort: MatSort;
     constructor(private router: Router,
         public SimpleSeatsManagerService: SeatsManagerService //
     ) {
@@ -48,14 +49,13 @@ export class ForDariaComponent implements OnInit {
         }, data => {
             console.log(data);
         });
-
     }
 
     private initTable(data: ISeats) {
-        
         this.tablesState = this.convertToTables(data);
         this.displayedColumns = ['tableNumber', 'arrived', 'relation'];
         this.tablesDataSource = new MatTableDataSource<ITable>(this.tablesState.tables);
+        this.tablesDataSource.sort = this.sort;
     }
     
     private convertToTables(data: ISeats): ITables {

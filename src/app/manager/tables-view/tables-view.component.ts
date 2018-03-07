@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { SeatsManagerService, SimpleSeatsManagerService } from '../../welcome/seats-manager/seats-manager.service';
 import { ISeats } from '../../welcome/seats-manager/ISeats';
-import { MatTableDataSource } from '@angular/material';
+import { MatTableDataSource, MatSort } from '@angular/material';
 import { ISeat } from '../../welcome/seats-manager/ISeat';
 import { ITable } from '../ITable';
 import { SimpleTablesManagerService, TablesManagerService } from '../tables-manager.service';
@@ -25,6 +25,7 @@ export class TablesViewComponent implements OnInit {
     displayedColumns: string[];
     tablesDisplayedColumns: string[];
     invitedState: ISeats;
+    @ViewChild(MatSort) sort: MatSort;
     constructor(private router: Router,
         public SimpleSeatsManagerService: SeatsManagerService
     ) {
@@ -58,6 +59,7 @@ export class TablesViewComponent implements OnInit {
         this.invitedState = data;
         this.displayedColumns = ['tableNumber', 'name', 'amount', 'hasArrived'];
         this.dataSource = new MatTableDataSource<ISeat>(this.invitedState.guests);
+        this.dataSource.sort = this.sort;
         this.dataSource.filterPredicate = this.tableFilter;
     }
 

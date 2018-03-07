@@ -3,42 +3,42 @@
     <p>
       מספר המוזמנים שהגיעו עד כה: {{amountArrived}}
     </p>
-    <button mat-button (click)="goTableView()">צפי בשולחנות</button>
-    <button mat-button (click)="goTotalTableView()">צפי בשולחנות כפי שביקשת</button>
+    <button mat-raised-button (click)="goTableView()">שולחנות-<br>אנשים</button>
+    <button mat-raised-button (click)="goTotalTableView()">רק<br>שולחנות</button>
   </div>
   <div class="example-header">
     <mat-form-field>
       <input matInput (keyup)="applyFilter($event.target.value)" placeholder="סנני">
     </mat-form-field>
   </div>
-  <mat-table #table [dataSource]="dataSource">
+  <mat-table #table [dataSource]="dataSource" matSort>
     <!-- name Column -->
     <ng-container matColumnDef="name">
-      <mat-header-cell *matHeaderCellDef> שם </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> שם </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
     </ng-container>
 
     <!-- table number Column -->
     <ng-container matColumnDef="tableNumber">
-      <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> מספר שולחן </mat-header-cell>
       <mat-cell *matCellDef="let element" (click)="openEditDialog('tableNumber', $event.target.value, element)"> {{element.tableNumber}} </mat-cell>
     </ng-container>
 
     <!-- amount Column -->
     <ng-container matColumnDef="amount">
-      <mat-header-cell *matHeaderCellDef> כמות </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> כמות </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.amount}} </mat-cell>
     </ng-container>
 
     <!-- has arrived Column -->
     <ng-container matColumnDef="hasArrived">
-      <mat-header-cell *matHeaderCellDef> האם הגיע? </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> האם הגיע? </mat-header-cell>
       <mat-cell *matCellDef="let element" (click)="openEditDialog('hasArrived', $event.target.value, element)"> {{element.hasArrived | booleanTranslator}} </mat-cell>
     </ng-container>
 
     <!-- relation Column -->
     <ng-container matColumnDef="relation">
-      <mat-header-cell *matHeaderCellDef> קרבה </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> קרבה </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.relation}} </mat-cell>
     </ng-container>
 

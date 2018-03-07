@@ -32,7 +32,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         MatDialogModule,
         FormsModule,
         MatButtonModule,
-        BooleanTranslatorPipeModule
+        BooleanTranslatorPipeModule,
     ],
 })
 export class ManagerModule { }

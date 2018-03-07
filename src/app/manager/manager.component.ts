@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { MatTableDataSource, MatDialog } from '@angular/material';
+import { Component, ViewChild } from '@angular/core';
+import { MatTableDataSource, MatDialog, MatSort } from '@angular/material';
 import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 
 import { SeatsManagerService, SimpleSeatsManagerService } from '../welcome/seats-manager/seats-manager.service';
@@ -22,7 +22,8 @@ export class ManagerComponent implements OnInit {
     public displayedColumns: string[];
     public dataSource: MatTableDataSource<ISeat>;
     public amountArrived: number = 0;
-
+    @ViewChild(MatSort) sort: MatSort;
+    
     constructor(public SimpleSeatsManagerService: SeatsManagerService,
         public dialog: MatDialog,
         private router: Router) { }
@@ -56,6 +57,7 @@ export class ManagerComponent implements OnInit {
             this.invitedState = data;
             this.displayedColumns = ['name', 'tableNumber', 'amount', 'hasArrived', 'relation'];
             this.dataSource = new MatTableDataSource(this.invitedState.guests);
+            this.dataSource.sort = this.sort;
             this.amountArrived = 0;
             this.invitedState.guests.forEach(element => {
                 if (element.hasArrived) {

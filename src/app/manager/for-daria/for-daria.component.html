@@ -1,23 +1,23 @@
 <div class="example-container mat-elevation-z8">
     <div class="front">
-        <button mat-button (click)="goTableView()">חזרה לטבלה הראשית</button>
+        <button mat-raised-button (click)="goTableView()">חזרה לטבלה הראשית</button>
     </div>
-    <mat-table #table [dataSource]="tablesDataSource">
+    <mat-table #table [dataSource]="tablesDataSource" matSort>
         <!-- table number Column -->
         <ng-container matColumnDef="tableNumber">
-            <mat-header-cell *matHeaderCellDef> מספר שולחן </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef mat-sort-header> מספר שולחן </mat-header-cell>
             <mat-cell *matCellDef="let element"> {{element.tableNumber}} </mat-cell>
         </ng-container>
 
         <!-- arrived Column -->
         <ng-container matColumnDef="arrived">
-            <mat-header-cell *matHeaderCellDef> כמה הגיעו </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef mat-sort-header> כמה הגיעו </mat-header-cell>
             <mat-cell *matCellDef="let element"> {{element.arrived}} </mat-cell>
         </ng-container>
 
         <!-- relation Column -->
         <ng-container matColumnDef="relation">
-            <mat-header-cell *matHeaderCellDef> קרבה </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef mat-sort-header> קרבה </mat-header-cell>
             <mat-cell *matCellDef="let element"> {{element.relation}} </mat-cell>
         </ng-container>
         <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
