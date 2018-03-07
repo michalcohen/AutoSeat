@@ -27,6 +27,7 @@ export class WelcomeComponent implements OnInit {
         private http: HttpClient) { }
 
     ngOnInit() {
+        document.body.style.backgroundImage = "url('./assets/images/background.jpg')";
         this.wasSubmitted = false;
         this.previousName = null;
         this.SimpleSeatsManagerService.init();

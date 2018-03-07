@@ -12,11 +12,12 @@ html {
     height: 100%;
 }
 body {
+    overflow: hidden;
     height: 100%;
-    background-image: url('./assets/images/background.jpg');
     background-size: 100% 100%;
 }
 img {
+    padding-top: 85px;
     max-width: 100%
 }
 
