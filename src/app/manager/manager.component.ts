@@ -30,7 +30,6 @@ export class ManagerComponent implements OnInit {
 
     ngOnInit() {
         this.loadTable();
-        document.body.style.backgroundImage = "";
     }
 
     applyFilter(filterValue: string) {
