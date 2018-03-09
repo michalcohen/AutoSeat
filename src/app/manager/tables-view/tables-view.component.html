@@ -1,0 +1,38 @@
+<div class="example-container mat-elevation-z8">
+    <div class="front">
+        <p>
+            מספר המוזמנים שהגיעו לשולחן: {{amountArrived}}
+        </p>
+        <button mat-raised-button (click)="goTableView()">חזרה לטבלה הראשית</button>
+    </div>
+    <div class="example-header">
+        <mat-form-field>
+            <input matInput type="number" (keyup)="applyFilter($event.target.value)" placeholder="בחרי שולחן">
+        </mat-form-field>
+    </div>
+    <mat-table #table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="tableNumber">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> מספר שולחן </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="openEditDialog('tableNumber', $event.target.value, element)"> {{element.tableNumber}} </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="name">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> שם </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="amount">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> כמות </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.amount}} </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="hasArrived">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> האם הגיע? </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="openEditDialog('hasArrived', $event.target.value, element)"> {{element.hasArrived | booleanTranslator}} </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+
+</div>

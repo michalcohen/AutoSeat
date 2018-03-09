@@ -1,0 +1,16 @@
+<h1 mat-dialog-title *ngIf="data.field === 'tableNumber'">החלפת שולחן</h1>
+<div mat-dialog-content *ngIf="data.field === 'tableNumber'">
+    <p>לאיזה שולחן להעביר את {{data.element.name}}?</p>
+    <mat-form-field>
+        <input matInput type="number" [(ngModel)]="data.element.tableNumber" cdkFocusInitial>
+    </mat-form-field>
+</div>
+<h1 mat-dialog-title *ngIf="data.field === 'hasArrived'">עדכון הגעה</h1>
+<div mat-dialog-content *ngIf="data.field === 'hasArrived'">
+    <p *ngIf="data.element.hasArrived === false">האם את בטוחה ש{{data.element.name}} הגיע?</p>
+    <p *ngIf="data.element.hasArrived === true">האם את בטוחה ש{{data.element.name}} לא הגיע?</p>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">ביטול</button>
+    <button mat-button [mat-dialog-close]="data.element">אישור</button>
+</div>
